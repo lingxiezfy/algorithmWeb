@@ -13,6 +13,7 @@ public class TestDao {
      */
     public Test getTestById(int id){
         Test test  = null;
+        test = new Test();
         return test;
     }
 }
