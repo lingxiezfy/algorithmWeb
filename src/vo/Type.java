@@ -2,7 +2,7 @@ package vo;
 
 public class Type {
   private int t_id;
-  private int s_id;
+  private Source source;
   private String t_name;
 
   public int getT_id() {
@@ -13,12 +13,12 @@ public class Type {
     this.t_id = t_id;
   }
 
-  public int getS_id() {
-    return s_id;
+  public Source getSource() {
+    return source;
   }
 
-  public void setS_id(int s_id) {
-    this.s_id = s_id;
+  public void setSource(Source source) {
+    this.source = source;
   }
 
   public String getT_name() {

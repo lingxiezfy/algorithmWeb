@@ -2,8 +2,8 @@ package vo;
 
 public class Question {
   private int q_id;
-  private int r_id;
-  private int t_id;
+  private Rank rank;
+  private Type type;
   private String tag;
   private String q_title;
   private String q_description;
@@ -21,20 +21,20 @@ public class Question {
     this.q_id = q_id;
   }
 
-  public int getR_id() {
-    return r_id;
+  public Rank getRank() {
+    return rank;
   }
 
-  public void setR_id(int r_id) {
-    this.r_id = r_id;
+  public void setRank(Rank rank) {
+    this.rank = rank;
   }
 
-  public int getT_id() {
-    return t_id;
+  public Type getType() {
+    return type;
   }
 
-  public void setT_id(int t_id) {
-    this.t_id = t_id;
+  public void setType(Type type) {
+    this.type = type;
   }
 
   public String getTag() {
