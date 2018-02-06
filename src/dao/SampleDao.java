@@ -118,7 +118,7 @@ public class SampleDao {
     }
 
     /**
-     * 返回某问题的示例列表
+     * 根据问题id返回某问题的示例列表
      * @param q_id 问题的id
      * @return 成功返回列表，失败返回空列表
      */
